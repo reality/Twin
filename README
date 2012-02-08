@@ -1,0 +1,6 @@
+Script to copy KVM-QEMU virtual machines from one physical server to another at
+a reasonable interview, keeping a slightly lagged mirror of the virtual machine
+in another physical server. Designed for quick switch-over to a working version
+of a website on the occasion of breakage, it also checks that the VM is working
+and responding before it replaces the old running backup, thereby not
+overwriting a running backup with a broken copy.

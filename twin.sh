@@ -1,6 +1,8 @@
 #!/bin/sh
 #
-# description: Manage twinned hosting
+# Name: twin.sh
+# Authors: Julian Price, Luke Slater
+# Description: Manage twinned hosting
 # This file belongs in /usr/local/sbin
 #
 
